@@ -47,6 +47,10 @@ body {
     margin: 0 auto;
     width: 800px;
 
+
+}
+.placeholder{
+  color: white;
 }
 
 input {
