@@ -1,11 +1,12 @@
 *{
   font-family: 'Nunito', sans-serif;
-  }
+}
 .container{
   text-align: center;
   color: white;
   text-shadow: 2px 2px 8px #221DC0;
-  width: 100%;
+  width: 50%;
+  margin-top: 50px;
 }
 .rowscale{
   margin-bottom: 0;
