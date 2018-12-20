@@ -2,7 +2,8 @@
   <head>
       <title>contact form design</title>
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-      <link href="css/styles1.css" rel="stylesheet" type="text/css">
+      <link href="css/contact.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,900" rel="stylesheet">
   </head>  
   <body>
         <nav class="nav navbar-default">
@@ -10,15 +11,7 @@
                 <div class="navbar-header">
                   <img src="images/logo.png" class="logo" alt="E-rrand logo"/>
                 </div>
-                <!-- <ul class="nav nav-pills" id="pills">
-                <li role="presentation"><a href="#">Home</a></li>
-                <li role="presentation"><a href="#">About</a></li>
-                <li role="presentation"><a href="#">FAQ</a></li>
-                <li role="presentation"><a href="#">Services</a></li>
-                <li role="presentation"><a href="#">Contacts</a></li>
-                <li class= "nav navbar-right"><p class="name">Name placeholder</p></li>
-              </ul> -->
-              <ul class="nav nav-pills" id="pills">
+                 <ul class="nav nav-pills" id="pills">
                 <li role="presentation"><a href="index.html">Home</a></li>
                 <li role="presentation"><a href="about.html">About</a></li>
                 <li role="presentation"><a href="faq.html">FAQ</a></li>
@@ -41,6 +34,28 @@
      <input type ="submit" class="form-control submit" value="SEND MESSAGE">
  </form>
      </div>
+
+     <div class="row" id="#contactsection">
+      <div class="col-md-12">
+        <h2 class="aboutitle"> Reach Us</h2>
+        
+</div>
+</div>
+
+     <div class="row iconalign">
+      <div class="col-md-4">
+        <img src="https://static.thenounproject.com/png/14236-200.png" class="icon" alt="Registration image"/>
+        <p class="imagedesc">Location - Ngong Lane Plaza, Ngong Lane. Nairobi </p>
+      </div>
+      <div class="col-md-4">
+        <img src="https://png.pngtree.com/svg/20170118/telephone_39220.png" class="icon" alt="Request Icon image"/>
+        <p class="imagedesc">Phone - +254 700 410 919</p>
+      </div>
+      <div class="col-md-4">
+        <img src="data:image/png;base64,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" class="icon" alt="Call image"/>
+        <p class="imagedesc">Email - contact@errandkenya.com</p>
+      </div>
 
   </body>
 </html>
