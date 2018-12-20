@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:300,400');
+
+* {
+    outline-width: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+#faqWrapper {
+    width: 980px;
+    margin: 30px auto;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+@media only screen and (max-width: 980px) {
+    #faqWrapper {
+        width: 100%;
+    }
+}
+
+header {
+    padding: 10px;
+    box-sizing: border-box;
+
+    h1 {
+        margin: 0;
+        font-weight: 300;
+        font-family: 'Roboto Condensed';
+    }
+
+    p {
+        margin: 0;
+        font-family: 'Roboto Condensed';
+    }
+}
+
+#accordion {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.accordion-toggle {
+    border-top: 1px solid #eee;
+    padding: 10px 40px 10px 0;
+    cursor: pointer;
+    position: relative;
+
+    p {
+        margin: 0;
+        font-family: 'Roboto Condensed';
+    }
+
+    span {
+        position: absolute;
+        right: 10px;
+        top: 35%;
+        transform: translateY(-50%) rotate(-45deg);
+        width: 16px;
+        height: 16px;
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+    }
+}
+
+.accordion-content {
+    display: none;
+    padding: 5px 0 15px;
+
+    p {
+        margin: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &.steps {
+            font-style: italic;
+        }
+    }
+}
+
+.learn {
+    display: block;
+    color: #000;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+.navbar-nav {
+
+    margin: 35px;
+
+}
+
+.logo {
+
+    width: 110px;
+
+    height: 46px;
+
+    margin-left: 25px;
+
+    margin-top: -5px;
+
+}
+#pills{
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .logo{
+    width: 110px;
+    height: 46px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .name{
+    margin-right: 20px;
+    margin-top: 11px;
+  }
+ p{
+    font-family: 'Nunito', sans-serif;
+ } 
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color: #98DEF9;
+}
+.container{
+  margin-left: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.jumbotron{
+  padding-top: 10px;
+  padding-bottom:10px;
+  height:300px;
+  text-align: center;
+  background-image: linear-gradient(#39A2FF,#98DEF9);
+}
+.header{
+  text-align: center;
+  color: red;
+}
+#pills{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.logo{
+  width: 110px;
+  height: 46px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.name{
+  margin-right: 20px;
+  margin-top: 11px;
+}
+.card{
+  text-align:center;
+  display: grid;
+}
+.row{
+  margin: 0;
+}
+.footer{
+  float: right;
+  margin-right:10px;
+}
+div.card-body{
+  text-align: center;
+  font-size: 20px;
+}
